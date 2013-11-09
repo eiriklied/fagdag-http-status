@@ -1,0 +1,1 @@
+window.chartApp = angular.module('chartApp', ['nvd3ChartDirectives']);
