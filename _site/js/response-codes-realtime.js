@@ -18,6 +18,9 @@ chartApp.controller('ResponseCodesRealtimeController', function ($scope, $http, 
               },
               "facet_filter": {
                   "and": [
+                    {"term": {
+                      "filetype": "html"
+                    }},
                     {"range": {
                       "responsecode": {
                         "gte": gte,
